@@ -93,3 +93,42 @@ nav li {
     background-color: #146bf8;
     transition: 1s;
 }
+
+/* Features */
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 22%;
+}
+
+#features h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    width: 100%;
+}
+
+#feature-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.feat-block {
+    width: 20%;
+    text-align: center;
+}
+
+.feat-block p {
+    padding-top: 10px;
+    color: #797979;
+}
+
+.blue-div {
+    height: 150px;
+    width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
