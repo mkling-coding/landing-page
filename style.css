@@ -7,6 +7,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Navbar */
+
 nav {
     background-color: #1F2937;
     padding: 20px 18%;
@@ -14,9 +16,14 @@ nav {
     justify-content: space-between;
 }
 
-nav h1 {
+nav p {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav li {
@@ -26,7 +33,63 @@ nav li {
 
 .nav-link {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #cfcccc;
     text-decoration: none;
     margin: 0px 10px;
+}
+
+/* Hero */
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 18%;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#hero-content, #hero-img {
+    width: 48%;
+}
+
+#hero-content p {
+    margin: 10px 0px;
+    color: #D1D4D9;
+}
+
+#hero-img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C747D;
+}
+
+#hero-img p {
+    color: #F2F3F4;
+}
+
+#hero-content button {
+    width: 120px;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#hero-content button:hover {
+    cursor: pointer;
+    background-color: #146bf8;
+    transition: 1s;
 }
