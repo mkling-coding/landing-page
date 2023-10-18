@@ -204,3 +204,13 @@ nav li {
     background-color: #146bf8;
     transition: 1s;
 }
+
+/* Footer */
+
+footer {
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px 0px;
+}
